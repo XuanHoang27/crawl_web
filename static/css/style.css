@@ -1,0 +1,56 @@
+* {
+    padding: 10px;
+}
+.main-title {
+    text-align: center;
+}
+
+.comboboxs {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.choose-web {
+    display: flex;
+}
+
+.choose-mode {
+    display: flex;
+}
+
+form {
+    padding: 0;
+}
+
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-left {
+    flex: 8;
+    border: 1px solid black;
+    height: 400px;
+}
+
+.main-right {
+    flex: 2;
+}
+
+.submit-button {
+    height: 50px;
+    align-self: center;
+}
+
+.autoindex {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+
+  .autoindex * {
+    pointer-events: auto;
+  }
